@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_media_store_list_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/media_store_list_image_button_text"/>
+
+        <Button
+            android:id="@+id/button_media_store_take_screenshot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/media_store_take_screenshot_button_text"/>
+
+        <Button
+            android:id="@+id/button_media_store_delete_last_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/media_store_delete_last_image_button_text"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/image_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
