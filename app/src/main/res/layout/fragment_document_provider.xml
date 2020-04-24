@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/button_create_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_provider_create_button_text"/>
+
+    <Button
+        android:id="@+id/button_delete_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_provider_delete_button_text"/>
+
+    <Button
+        android:id="@+id/button_open_document"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_provider_open_document_button_text"/>
+
+    <Button
+        android:id="@+id/button_open_directory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/document_provider_open_directory_button_text"/>
+
+</LinearLayout>
