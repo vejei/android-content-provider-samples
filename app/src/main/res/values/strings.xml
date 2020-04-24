@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">ContentProviderSamples</string>
+    <string name="main_media_store_button_text">Media Store</string>
+    <string name="main_document_provider_button_text">Document Provider</string>
+    <string name="media_store_list_image_button_text">List Image</string>
+    <string name="media_store_take_screenshot_button_text">Take Screenshot</string>
+    <string name="media_store_delete_last_image_button_text">Delete Image</string>
+    <string name="document_provider_create_button_text">Create Document</string>
+    <string name="document_provider_delete_button_text">Delete Document</string>
+    <string name="document_provider_open_document_button_text">Open Document</string>
+    <string name="document_provider_open_directory_button_text">Open Directory</string>
+    <string name="create_document_save_button_text">Save</string>
+    <string name="create_document_content_input_hint">Type something here</string>
 </resources>
